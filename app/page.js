@@ -9,16 +9,7 @@ import { styled } from "@mui/system";
 import { initializeApp } from 'firebase/app';
 import { getAnalytics, isSupported } from 'firebase/analytics';
 
-// Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyBXcrZb8Hd2oztoyUWkgujq1T-t2RrKjSQ",
-  authDomain: "pantry-tracker-1fa35.firebaseapp.com",
-  projectId: "pantry-tracker-1fa35",
-  storageBucket: "pantry-tracker-1fa35.appspot.com",
-  messagingSenderId: "57830252707",
-  appId: "1:57830252707:web:e430e413116933d9339f16",
-  measurementId: "G-29BHGGZYX0"
-};
+
 
 const themeColor = "#4caf50";
 
